@@ -46,59 +46,92 @@
             font-size: 20px;
         }
 
-        .Trophies {
+        .trophies {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
             text-align: center;
             padding: 100px 20px;
         }
 
-        .Trophies h1 {
+        .trophies h1 {
             font-size: 48px;
         }
 
-        .Trophies img {
+        .trophies h2 {
+            font-size: 32px;
+        }
+
+        .img4 {
             text-align: center;
             padding: 50px 20px;
         }
 
-        .Trophies img img {
+        .img4 img {
             width: 80%;
             max-width: 400px;
         }
     </style>
 </head>
+
 <body>
-     <nav class="nav">
+
+    <nav class="nav">
         <ul class="menues">
-            <li><a href="index.html"><img src="Barca Logo.jpg" alt="logo" class="logo"></a></li>
-            <li><a href="squadlist.html">squadlist</a></li>
-            <li><a href="trophies.html">Trophies</a></li>
+            <li>
+                <a href="index.html">
+                    <img src="Barca Logo.jpg" alt="logo" class="logo">
+                </a>
+            </li>
+
+            <li>
+                <a href="squadlist.html">squadlist</a>
+            </li>
+
+            <li>
+                <a href="trophies.html">Trophies</a>
+            </li>
         </ul>
-     </nav>
-     <section class="Trophies">
+    </nav>
+
+    <section class="trophies">
+
         <div class="squad">
             <h1>Our Trophies</h1>
             <p>You must know how many trophies this club has won.</p>
-            <p><ul>
-                <ol>La Liga</ol>
+
+            <ul>
+                <h2>La Liga</h2>
                 <li>26</li>
-                <ol>Copa Del Rey</ol>
+
+                <h2>Copa Del Rey</h2>
                 <li>31</li>
-                <ol>Supercopa De Espana</ol>
+
+                <h2>Supercopa De Espana</h2>
                 <li>14</li>
-                <ol>UEFA Champions League</ol>
+
+                <h2>UEFA Champions League</h2>
                 <li>5</li>
-                <ol>UEFA Super Cup</ol>
+
+                <h2>UEFA Super Cup</h2>
                 <li>5</li>
-                <ol>FIFA Club World Cup</ol>
+
+                <h2>FIFA Club World Cup</h2>
                 <li>3</li>
-            </ul></p>
+            </ul>
         </div>
-        <div class="Trophies img">
+
+        <div class="img4">
             <img src="./Trophies.jpg" alt="Trophies Image">
         </div>
-     </section>
+
+    </section>
+
     <audio autoplay loop>
-    <source src="Blaugrana-son-els-colors.mp3" type="audio/mpeg">
-</audio>
+        <source src="Blaugrana-son-els-colors.mp3" type="audio/mpeg">
+    </audio>
+
 </body>
 </html>
