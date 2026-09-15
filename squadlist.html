@@ -45,66 +45,105 @@
             text-decoration: none;
             font-size: 20px;
         }
+        .Squadlist {
+            display: flex; 
+            gap: 20px;       
+           flex-wrap: wrap; 
+        }
+
         .squad {
             text-align: center;
             padding: 100px 20px;
         }
+
         .squad h1 {
             font-size: 48px;
         }
-        .Squad {
-    text-align: center;
-    padding: 50px 20px;
-}
 
-.Squad img {
-    width: 80%;
-    max-width: 400px;
-}
-        
-        </style>
+        .squad h2 {
+            font-size: 32px;
+        }
+
+        .img3 {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .img3 img {
+            width: 80%;
+            max-width: 400px;
+        }
+    </style>
 </head>
+
 <body>
-     <nav class="nav">
+
+    <nav class="nav">
         <ul class="menues">
-            <li><a href="index.html"><img src="Barca Logo.jpg" alt="logo" class="logo"></a></li>
-            <li><a href="squadlist.html">squadlist</a></li>
-            <li><a href="trophies.html">Trophies</a></li>
+            <li>
+                <a href="index.html">
+                    <img src="Barca Logo.jpg" alt="logo" class="logo">
+                </a>
+            </li>
+
+            <li>
+                <a href="squadlist.html">squadlist</a>
+            </li>
+
+            <li>
+                <a href="trophies.html">Trophies</a>
+            </li>
         </ul>
-     </nav>
-      <section class="Squadlist">
+    </nav>
+
+    <section class="Squadlist">
+
         <div class="squad">
             <h1>Our Squad list</h1>
             <p>Meet the players that make you Happy every Match Day</p>
-            <p><ul>
-                <ol>Gk</ol>
+
+            <ul>
+                <h2>GK</h2>
                 <li>Joan Garcia, Scezeny, Livakovic</li>
-                <ol>CB</ol>
+
+                <h2>CB</h2>
                 <li>Cubarsi, Gerard Martin, Christensen</li>
-                <ol>LB</ol>
+
+                <h2>LB</h2>
                 <li>Espart, Cancelo, Balde</li>
-                <ol>RB</ol>
+
+                <h2>RB</h2>
                 <li>Kounde, Garcia</li>
-                <ol>CDM</ol>
+
+                <h2>CDM</h2>
                 <li>Rodri, Bernal</li>
-                <ol>CM</ol>
-                <li>Pedri, Dejong, Gavi </li>
-                <ol>CAM</ol>
+
+                <h2>CM</h2>
+                <li>Pedri, Dejong, Gavi</li>
+
+                <h2>CAM</h2>
                 <li>Olmo, Fermin</li>
-                <ol>Lw</ol>
+
+                <h2>LW</h2>
                 <li>Adeymi, Gordon</li>
-                <ol>ST</ol>
+
+                <h2>ST</h2>
                 <li>Raphinha, Hamza, Jesus, Bisiwu</li>
-                <ol>RW</ol>
+
+                <h2>RW</h2>
                 <li>Yamal, Roony</li>
-            </ul></p>
+            </ul>
         </div>
-        <div class="Squad">
+
+        <div class="img3">
             <img src="./Squadimage.jpg" alt="Squad Image">
         </div>
-     </section>
-<audio autoplay loop>
-    <source src="Barca-Barca-Barca.mp3" type="audio/mpeg">
-</audio>
+
+    </section>
+
+    <audio autoplay loop>
+        <source src="Barca-Barca-Barca.mp3" type="audio/mpeg">
+    </audio>
+
 </body>
 </html>
