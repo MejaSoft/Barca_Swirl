@@ -46,7 +46,7 @@
             font-size: 20px;
         }
 
-        .Hero {
+        .hero {
             text-align: center;
             padding: 100px 20px;
             background:
@@ -57,19 +57,19 @@
             overflow: hidden;
         }
 
-        .Hero h1 {
+        .hero h1 {
             font-size: 48px;
             color: #fff;
             margin-bottom: 20px;
         }
 
-        .Hero p {
+        .hero p {
             font-size: 20px;
             color: #fff;
             margin-bottom: 30px;
         }
 
-        .herobutton {
+        .hero .B1 {
             padding: 10px 20px;
             font-size: 18px;
             background-color: #a50044;
@@ -77,11 +77,11 @@
             border: none;
             cursor: pointer;
         }
-         .herobutton:hover {
+         .hero .B1:hover {
             background-color: #004d98;
         }
 
-        .story {
+        .history {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -89,42 +89,42 @@
             background: linear-gradient(90deg, #004d98, #a50044);
         }
 
-        .Content {
+        .content {
             flex: 1;
             padding-right: 20px;
         }
 
-        .Content h1 {
+        .content h1 {
             font-size: 36px;
             margin-bottom: 20px;
         }
 
-        .Content p {
+        .content p {
             font-size: 18px;
             margin-bottom: 10px;
         }
 
-        .img {
+        .img1 {
             flex: 1;
             width: 80px;
         }
 
-        .footer {
+        .end {
             text-align: center;
             padding: 50px 20px;
             background: linear-gradient(90deg, #004d98, #a50044);
             color: #fff;
         }
 
-        .footer h1 {
+        .end h1 {
             margin-bottom: 15px;
         }
 
-        .footer p {
+        .end p {
             margin-bottom: 20px;
         }
 
-        .footer.button {
+        .end .B2 {
             padding: 10px 20px;
             font-size: 18px;
             background-color: #a50044;
@@ -155,22 +155,22 @@
         </ul>
     </nav>
 
-    <div class="Hero">
+    <div class="hero">
         <h1>Welcome, Culer</h1>
         <p>This is a website talking about Barca containing information about the club.</p>
-        <button class="herobutton" onclick="window.location.href='squadlist.html'">
+        <button class="B1" onclick="window.location.href='squadlist.html'">
             Our Squadlist
         </button>
     </div>
 
-    <section class="Story">
-        <div class="Content">
+    <section class="history">
+        <div class="content">
             <h1>Our Story</h1>
             <p>The club was founded by Joan gamper in 1899.</p>
             <p>FC Barcelona, also known simply as Barcelona and familiarly as Barça, is based in Barcelona, Catalonia, Spain.</p>
         </div>
 
-        <div class="img">
+        <div class="img1">
             <img src="JoanGamper.jpg" alt="Joan Gamper">
         </div>
     </section>
@@ -178,12 +178,11 @@
         <audio autoplay loop>
             <source src="./Official-Anthem.wav" type="audio/wav">
         </audio>
-    </div>
 
-    <div class="footer">
+    <div class="end">
         <h1>Mes Que Un Club</h1>
         <p>Know more about our trophies</p>
-        <button class="footer button" onclick="window.location.href='trophies.html'">
+        <button class="B2" onclick="window.location.href='trophies.html'">
             Our Trophies
         </button>
     </div>
